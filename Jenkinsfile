@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/your-username/hello-world-java.git', branch: 'main'
+                git url: 'https://github.com/jshingler/hello-world-java.git', branch: 'main'
             }
         }
         stage('Build') {
